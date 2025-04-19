@@ -1,0 +1,68 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #111;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  transition: background 0.5s ease;
+}
+
+.container {
+  text-align: center;
+  width: 90%;
+  max-width: 600px;
+  padding: 30px;
+  background-color: #222;
+  border-radius: 15px;
+}
+
+.mood-buttons button {
+  margin: 10px;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 10px;
+  background: #444;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.mood-buttons button:hover {
+  background: #666;
+}
+
+.playlist {
+  margin-top: 30px;
+}
+
+body.happy {
+  background-color: #ffda79;
+  color: #FFFFFF; 
+}
+
+body.sad {
+  background-color: #2d3e50;
+  color: white;
+}
+
+body.energetic {
+  background-color: #CC895D;
+  color: white;
+}
+
+body.chill {
+  background-color: #5dade2;
+  color: white;
+}
+a {
+  color: inherit;
+  text-decoration: underline;
+}
+
+a:hover {
+  opacity: 0.8;
+}
